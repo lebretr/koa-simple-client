@@ -61,7 +61,7 @@ try {
         console.error('HTTPS server FAIL: ', err, (err && err.stack));
       }
       else {
-        console.log(`HTTPS server OK: http://${config.domain}:${config.https.port}`);
+        console.log(`HTTPS server OK: https://${config.domain}:${config.https.port}`);
       }
     });
 }
